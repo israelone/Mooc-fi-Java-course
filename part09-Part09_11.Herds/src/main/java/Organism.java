@@ -10,8 +10,8 @@
  */
 public class Organism implements Movable {
     
-    int x;
-    int y;
+    private int x;
+    private int y;
     public Organism(int x, int y){
         this.x = x;
         this.y = y;

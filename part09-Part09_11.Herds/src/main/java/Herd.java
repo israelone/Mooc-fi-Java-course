@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 public class Herd implements Movable {
     
-    ArrayList<Movable> organisms;
+    private ArrayList<Movable> organisms;
     
     public Herd(){
         organisms = new ArrayList<>();
